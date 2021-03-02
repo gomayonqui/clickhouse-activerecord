@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'active_record/migration'
+require 'active_record/connection_adapters/abstract_adapter'
 require 'active_record/connection_adapters/clickhouse_adapter'
 
 if defined?(Rails::Railtie)
